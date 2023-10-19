@@ -1,0 +1,145 @@
+.container-two {
+  width: 100vw;
+  height: 250vw;
+  background: linear-gradient(
+    to right,
+    rgb(233, 78, 104),
+    rgb(232, 194, 200),
+    rgb(237, 237, 146)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#card-one {
+  background-color: white;
+  width: 40vw;
+  height: 55vw;
+  border-top-right-radius: 10vw;
+  border-bottom-left-radius: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#card-two {
+  background-color: white;
+  width: 40vw;
+  height: 55vw;
+  border-top-right-radius: 10vw;
+  border-bottom-left-radius: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#card-three {
+  background-color: white;
+  width: 40vw;
+  height: 55vw;
+  border-top-right-radius: 10vw;
+  border-bottom-left-radius: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#image-4,
+#image-2,
+#image-3 {
+  width: 30vw;
+  height: 30vw;
+  border-top-right-radius: 10vw;
+  margin-top: 2vw;
+}
+#burger-heading,
+#pizza-heading,
+#pasta-heading {
+  font-size: 4.5vw;
+}
+#burger-text,
+#pizza-text,
+#pasta-text {
+  font-size: 2.5vw;
+  margin-top: -4vw;
+}
+#order-now-title {
+  color: white;
+  font-weight: bold;
+  font-size: 4.5vw;
+}
+#order-btn {
+  width: 20vw;
+  height: 6vw;
+  border-radius: 5vw;
+  color: black;
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 992px) {
+  .container-two {
+    width: 100vw;
+    height: 50vw;
+    background: linear-gradient(
+      to right,
+      rgb(233, 78, 104),
+      rgb(232, 194, 200),
+      rgb(237, 237, 146)
+    );
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #order-now-title {
+    position: absolute;
+    top: 45vw;
+    font-size: 3.5vw;
+  }
+  #order-btn {
+    position: absolute;
+    top: 85vw;
+    font-size: 1.5vw;
+    width: 12vw;
+    height: 4vw;
+  }
+  #card-one {
+    width: 20vw;
+    height: 28vw;
+    border-top-right-radius: 5vw;
+    border-bottom-left-radius: 5vw;
+  }
+  #card-two {
+    width: 20vw;
+    height: 28vw;
+    border-top-right-radius: 5vw;
+    border-bottom-left-radius: 5vw;
+  }
+  #card-three {
+    width: 20vw;
+    height: 28vw;
+    border-top-right-radius: 5vw;
+    border-bottom-left-radius: 5vw;
+  }
+  #image-4,
+  #image-2,
+  #image-3 {
+    width: 14vw;
+    height: 14vw;
+    border-top-right-radius: 2vw;
+    margin-top: 2vw;
+  }
+  #burger-heading,
+  #pizza-heading,
+  #pasta-heading {
+    font-size: 2vw;
+  }
+  #burger-text,
+  #pizza-text,
+  #pasta-text {
+    font-size: 1vw;
+    margin-top: -2vw;
+  }
+}
